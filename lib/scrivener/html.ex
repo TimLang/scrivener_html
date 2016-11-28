@@ -1,6 +1,6 @@
 defmodule Scrivener.HTML do
   use Phoenix.HTML
-  @defaults [view_style: :bootstrap, action: :index, page_param: :page]
+  @defaults [view_style: :amazeui, action: :index, page_param: :page]
   @view_styles [:bootstrap, :semantic, :foundation, :bootstrap_v4, :amazeui]
   @raw_defaults [distance: 5, next: ">>", previous: "<<", first: true, last: true, ellipsis: raw("&hellip;")]
   @moduledoc """
